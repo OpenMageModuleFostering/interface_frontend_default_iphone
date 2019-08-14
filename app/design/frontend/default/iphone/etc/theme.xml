@@ -1,4 +1,5 @@
-<?php
+<?xml version="1.0"?>
+<!--
 /**
  * Magento
  *
@@ -23,12 +24,7 @@
  * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
-?>
-
-<?php $_wishlistItem = $this->getWishlistItem(); ?>
-<?php $_wishlistSubmitUrl = $this->helper('wishlist')->getUpdateUrl($_wishlistItem); ?>
-<ul class="add-to-links">
-<?php if ($this->helper('wishlist')->isAllow()) : ?>
-    <li><a href="<?php echo $_wishlistSubmitUrl ?>" onclick="productAddToCartForm.submitLight(this, this.href); return false;" class="link-compare"><?php echo $this->__('Update Wishlist') ?></a></li>
-<?php endif; ?>
-</ul>
+-->
+<theme>
+    <parent>default/default</parent>
+</theme>
